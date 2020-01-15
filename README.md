@@ -1,2 +1,10 @@
 # daily-weather-action
-An example of GitHub Actions: sending daily weather report with email.  Visit  blog (in Chinese) for details [https://github.com/ruanyf/weather-action].
+An example of GitHub Actions: sending daily weather report with email.
+
+Visit [ruanyf's blog](http://www.ruanyifeng.com/blog/2019/12/github_actions.html) (in Chinese) for details.
+
+## References
+
+- [signalnerve/github-actions-weather-bot](https://github.com/signalnerve/github-actions-weather-bot)
+- [chubin/wttr.in](https://github.com/chubin/wttr.in)
+
