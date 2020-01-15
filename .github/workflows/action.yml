@@ -20,8 +20,10 @@ jobs:
         with:
           server_address: smtp.163.com
           server_port: 465
-          username: ${{ secrets.MAIL_USERNAME }}
-          password: ${{ secrets.MAIL_PASSWORD }}
+          # username: ${{ secrets.MAIL_USERNAME }}
+          # password: ${{ secrets.MAIL_PASSWORD }}
+          username: 'murphy_yu_dev@163.com'
+          password: '15000Dev'
           subject: Shanghai Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
           to: murphy.yu@sap.com
